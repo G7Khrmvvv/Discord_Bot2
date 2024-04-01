@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ca17a5b7-6aa3-49ce-a558-0f86c0442eee" name="Default Changelist" comment="FirstCommit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,12 @@
         </map>
       </branch-storage>
     </excluded-from-favorite>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
@@ -79,7 +86,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -368,12 +375,36 @@
       <workItem from="1671203714223" duration="1000" />
       <workItem from="1671203796814" duration="29000" />
       <workItem from="1711998544321" duration="608000" />
-      <workItem from="1711999980024" duration="302000" />
+      <workItem from="1711999980024" duration="638000" />
     </task>
+    <task id="LOCAL-00001" summary="FirstCommit">
+      <option name="closed" value="true" />
+      <created>1712000345849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712000345849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FirstCommit" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstCommit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
