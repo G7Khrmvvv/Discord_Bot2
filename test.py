@@ -196,9 +196,9 @@ async def pause(ctx):
     voice_client = ctx.guild.voice_client
     if voice_client and voice_client.is_playing():
         voice_client.pause()
-        await ctx.send(f"Я остановился, абалдуи, {ctx.message.author.mention}.")
+        await ctx.send(f"Я остановился, {ctx.message.author.mention}.")
     else:
-        await ctx.send(f"Дурачок, песню для начала включи, {ctx.message.author.mention}.")
+        await ctx.send(f"песню для начала включи, {ctx.message.author.mention}.")
 
 
 @bot.command()
@@ -208,7 +208,7 @@ async def resume(ctx):
         voice_client.resume()
         await ctx.send(f"Хорошо, возвращаю {ctx.message.author.mention}.")
     else:
-        await ctx.send(f"Да ты заебал, песню включи {ctx.message.author.mention}.")
+        await ctx.send(f"Песню включи {ctx.message.author.mention}.")
 
 
 @bot.command()
@@ -217,7 +217,7 @@ async def stop(ctx):
         voice_client = ctx.voice_client
         await voice_client.disconnect()
     except:
-        await ctx.send(f"Сука {ctx.message.author.mention}.")
+        await ctx.send(f"Стоп {ctx.message.author.mention}.")
 
 
 import asyncio
